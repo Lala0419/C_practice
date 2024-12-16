@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information;
 
-string billGates = "Praise the great leader... Bill Gates";
+int numberOfBillGates = 1;
 
-Console.WriteLine(billGates);
-Console.WriteLine(billGates);
+Console.WriteLine(numberOfBillGates);
+Console.WriteLine(numberOfBillGates);
+Console.WriteLine(numberOfBillGates);
