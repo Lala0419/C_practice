@@ -1,13 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information;
 
-int numberOfBillGates = 1;
+string petFish = "pupper fish";
 
-Console.WriteLine(numberOfBillGates);
-Console.WriteLine(numberOfBillGates);
-Console.WriteLine(numberOfBillGates);
+petFish = "porcupine " + petFish;
 
-var BillGates = "teddy";
+Console.WriteLine($"I AM BUYING {petFish}");
+Console.WriteLine($"yes, ${petFish}");
 
-Console.WriteLine(BillGates);
-Console.WriteLine(BillGates);
-Console.WriteLine(BillGates);
+Console.WriteLine(petFish);
