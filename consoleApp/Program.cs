@@ -5,3 +5,9 @@ int numberOfBillGates = 1;
 Console.WriteLine(numberOfBillGates);
 Console.WriteLine(numberOfBillGates);
 Console.WriteLine(numberOfBillGates);
+
+var BillGates = "teddy";
+
+Console.WriteLine(BillGates);
+Console.WriteLine(BillGates);
+Console.WriteLine(BillGates);
