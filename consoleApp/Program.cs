@@ -50,5 +50,37 @@ var newFavoriteDogs = favoriteDogs.Where((e) => e.StartsWith('b'));
 
 foreach(var dog in newFavoriteDogs)
 {
-	Console.WriteLine(dog);
+	//Console.WriteLine(dog);
 }
+
+string[] students=["jeff", "Ethan","Nanaya"];
+
+
+//for loop
+foreach(var student in students){
+	Console.WriteLine(student);
+}
+
+//Counter
+for(var i =1; i <= 10; i++){
+	Console.WriteLine(i);
+}
+
+string[] oneDirection = ["Harry", "Liam", "Zane", "Louis", "Nail"];
+
+for(var i = 0; i < oneDirection.Length; i++){
+	Console.WriteLine(oneDirection[i]);
+}
+
+foreach(var p in oneDirection){
+	Console.WriteLine(p);
+}
+
+//foreach
+oneDirection.ToList().ForEach((i) =>
+{
+	Console.WriteLine($"X: {i}");
+});
+
+//Array foreach
+Array.ForEach(oneDirection, e => Console.WriteLine($"array foreach: {e}"));
