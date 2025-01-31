@@ -84,3 +84,17 @@ oneDirection.ToList().ForEach((i) =>
 
 //Array foreach
 Array.ForEach(oneDirection, e => Console.WriteLine($"array foreach: {e}"));
+
+//If else
+
+if(isLoggedIn)
+{
+	console.writeLine("This is true")
+}
+else{
+	console.writeLine("I sm sorry")
+}
+
+if(2 > 1){
+	console.writeLine("two is greater than one")
+}
